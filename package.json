@@ -8,6 +8,9 @@
     "build": "webpack"
   },
   "author": "",
+  "dependencies": {
+    "govuk-frontend": "^3.8.0"
+  },
   "devDependencies": {
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
