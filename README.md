@@ -15,7 +15,3 @@ npx http-server
 If importing individual components from a directory, use
 
 import { Accordion } from 'govuk-frontend-fake';
-
-If from individual file, use:
-
-import Accordion from 'govuk-frontend-fake/govuk/components/accordion/accordion';
