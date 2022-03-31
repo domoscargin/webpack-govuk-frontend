@@ -7,7 +7,8 @@
     "build": "webpack",
     "build:parcel": "parcel build",
     "start:parcel": "parcel",
-    "build:rollup": "rollup --config"
+    "build:rollup": "rollup --config",
+    "build:esbuild": "esbuild src/js/app.js --bundle --outfile=esbuild-bundle.js --resolve-extensions=.js,.mjs"
   },
   "source": "index.html",
   "author": "",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.1.3",
+    "esbuild": "^0.14.29",
     "parcel": "^2.4.0",
     "rollup": "^2.70.1",
     "webpack": "^5.70.0",
