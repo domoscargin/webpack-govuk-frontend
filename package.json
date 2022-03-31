@@ -2,16 +2,19 @@
   "name": "static-site-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "build:parcel": "parcel build",
+    "start:parcel": "parcel"
   },
+  "source": "index.html",
   "author": "",
   "dependencies": {
     "govuk-frontend": "github:alphagov/govuk-frontend#59053a8"
   },
   "devDependencies": {
+    "parcel": "^2.4.0",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
   }
